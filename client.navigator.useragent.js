@@ -58,6 +58,6 @@ var Client = {
     },
     /*判断是否为微信浏览器*/
     isWeChat: function () {
-        return !!client_info.match(/MicroMessenger/i);
+        return !!client_info.match(/micromessenger/i);
     }
 };
