@@ -1,0 +1,28 @@
+{
+  "name": "f-browser",
+  "version": "1.0.0",
+  "description": "JS通过navigator.userAgent判定设备信息",
+  "main": "f-brower-1.0.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qcgm1978/f-browser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qcgm1978/f-browser/issues"
+  },
+  "homepage": "https://github.com/qcgm1978/f-browser#readme",
+  "devDependencies": {
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "phantomjs": "^2.1.7+deprecated",
+    "phantomjs-prebuilt": "^2.1.16"
+  }
+}
